@@ -1,0 +1,196 @@
+
+#headertop{
+    background-color:#316DC3 ;
+    color: white;
+    padding-top: 15px;
+    font-size: 14px;
+}
+#headertop i{
+    color: white;
+    margin-right: 20px;
+}
+.button{
+    font-size: 12px;
+    color:green;
+    padding: 3px 8px;
+}
+#headernav{
+    background-color: #F7F8FA;
+    padding-top: 10px;
+    font-size: 14px;
+}
+ul li{
+    display: inline;
+    padding: 10px;
+}
+ul{
+    padding: 16px;
+   height: 15px;
+   float: right;
+}
+.active1{
+    background-color:#316DC3 ;
+    color: white;
+    border-radius: 70px;  
+    padding: 8px 16px;
+}
+ul a{
+    color: black;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+.indicator{
+    margin-left: 5px;
+}
+
+ul a li:hover{
+    background-color:#316DC3 ;
+    color: white;
+    border-radius: 70px;  
+    padding: 8px 16px;
+
+}
+
+/* Dropdown */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    z-index: 1;
+    font-size: 15px;
+}
+  
+.dropdown-content a {
+    color: black;
+     padding: 6px 10px; 
+    text-decoration: none;
+    display: block;
+    
+  }
+  
+  .dropdown-content a:hover {
+      background-color:#316DC3;
+        color: white;
+}
+.dropdown:hover .dropdown-content {display: block;}
+/* End */
+#intro{
+    background-color: #f7f8fa;
+    text-align: center;
+    padding: 55px;
+}
+.heading{
+    color: #316DC3;
+    text-transform: uppercase;
+    font-family: 'Merriweather', serif;
+    font-weight: 900;
+
+}
+.line{
+    color:green;
+}
+.icon::before{
+    content: "__  ";
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    color: green;
+}
+.icon::after{
+    content: "  __ ";
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    color: green;
+}
+.top{
+    color: grey;
+    padding: 40px;
+
+}
+
+.bottom{
+    background-color: #316DC3 ;
+    color: white;
+    font-size: 12px;
+    padding-top: 5px;
+}
+footer{
+    background-color: black;
+}
+.footericon i{
+    color: green;
+    margin-right: 5px;
+    font-size: 12px;
+}
+.connecticon{
+    font-size: 12px;
+    margin: 2px 7px 2px 0;
+    color: white;
+    background-color: #316DC3;
+    border-radius: 100px;
+    padding: 4px 8px;
+}
+#content{
+    background-color: rgb(39,85,233);
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+.head{
+    font-size: 55px;
+    margin-bottom: 20px;
+    margin-top: 12px;
+}
+.month{
+   color: rgb(5, 247, 53);
+   font-size: 18px;
+}
+#doing{
+    text-align: center;
+    background-color: #F7F8FA;
+    padding: 30px;
+}
+.main-content{
+    background-color: white;
+    margin: 15px;  
+    color: #316DC3; 
+    box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.16);
+    max-width: 340px !important;
+    height: 190px;
+    padding: 40px;
+}
+.img{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 130px;
+}
+#project h3{
+    color: #316DC3;
+    padding-top: 70px;
+    padding-bottom: 40px;
+}
+.project-content{
+    background-color:#F7F8FA ;
+    margin: 18px;
+    max-width: 320px !important;
+    height: 70px;
+    padding: 18px;
+}
+.project-content span{
+    color: #316DC3;
+    margin-left: 28px;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+.lin{
+    background-color: green;
+    height: 2px;
+    max-width: 50px;
+    margin-top: 12px;
+}
